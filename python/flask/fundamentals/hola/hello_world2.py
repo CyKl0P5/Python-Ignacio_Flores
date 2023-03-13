@@ -18,3 +18,5 @@ print ("")
 
 hw = ""
 py = ""
+
+print = ("")
