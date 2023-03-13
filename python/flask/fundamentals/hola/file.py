@@ -1,6 +1,8 @@
 num1 = 42
 num2 = 2.3
+#boolean
 boolean = True
+#strings
 string = 'Hello World'
 
 # list
@@ -30,7 +32,7 @@ elif len(string) > 15:
 else:
     print("Just right!")
 
-#
+#for loop
 for x in range(5):
     print(x)
 for x in range(2,5):
