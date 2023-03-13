@@ -15,3 +15,6 @@ fave_food2 = "pizza"
 
 print ("")
 print ("")
+
+hw = ""
+py = ""
