@@ -8,4 +8,8 @@ for x in range(0,1000,5):
 
 #Loop to "Dojo's Way" (0 to 100)
 for x in range(0,100):
-    print(x)
+    if x % 10 == 0:
+        print("Coding Dojo")
+    elif x % 5 == 0:
+        print("Coding")
+        print(x)
