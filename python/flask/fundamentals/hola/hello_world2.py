@@ -20,3 +20,8 @@ fave_food2 = "pizza"
 #Printing using a .format code type
 print (f'I love to eat {fave_food1}')
 print (f'I love to eat {fave_food2}')
+
+
+
+
+#Python print made by Ignacio Flores using "Coding Dojo´s Code"
