@@ -31,10 +31,10 @@ for x in range(2018,0,-4):
 
 #Loop with var
 
-lowNum = 2
-highNum = 9
-Mult = 3
+lowNum = 0
+highNum = 20
+Mult = 5
 
 for x in range(lowNum,highNum):
-    if x % nul == 0:
+    if x % Mult == 0:
         print(x)
