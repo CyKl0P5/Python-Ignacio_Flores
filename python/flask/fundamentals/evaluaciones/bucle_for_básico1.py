@@ -13,3 +13,12 @@ for x in range(0,100):
     elif x % 5 == 0:
         print("Coding")
         print(x)
+
+#Loop "Whoa is a big Fool" (0 to 500)
+y = 0
+for x in range(0,500000):
+    if x % 2 != 0:
+        y += x
+print(y)
+
+#Loop 4 to 4
