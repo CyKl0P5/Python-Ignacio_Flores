@@ -1,4 +1,4 @@
-#First Loop (0 to 151)
+#First Loop (0 to 150)
 for x in range(0,151):
     print(x)
 
@@ -7,12 +7,12 @@ for x in range(0,1000,5):
     print(x)
 
 #Loop to "Dojo's Way" (0 to 100)
-for x in range(0,100):
+for x in range(0,101):
     if x % 10 == 0:
         print("Coding Dojo")
     elif x % 5 == 0:
         print("Coding")
-        print(x)
+    else: print(x)
 
 #Loop "Whoa is a big Fool" (0 to 500)
 y = 0
