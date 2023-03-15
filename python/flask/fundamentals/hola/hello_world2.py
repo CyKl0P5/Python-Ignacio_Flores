@@ -17,5 +17,6 @@ print ("Hi",str(name))
 fave_food1 = "sushi"
 fave_food2 = "pizza"
 
-print ("I love to eat",)
-print ("I love to eat",)
+#Printing using a .format code type
+print (f'I love to eat {fave_food1}')
+print (f'I love to eat {fave_food2}')
