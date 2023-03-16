@@ -43,14 +43,14 @@ def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
 
-#Prediction: 
+#Prediction:
 
 #7
 def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
 
-#Prediction 
+#Prediction: 
 
 #8
 def number_of_oceans_or_fingers_or_continents():
