@@ -43,7 +43,7 @@ def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
 
-#Prediction:
+#Prediction: no sumara porque la funcion no esta devolviendo ningun tipo de valor
 
 #7
 def concatenate(b,c):
