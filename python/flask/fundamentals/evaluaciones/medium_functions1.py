@@ -53,3 +53,37 @@ def iterateDictionary(x):
             print(atletic)
 
 iterateDictionary(students)
+
+#3 obtener valores de un diccionario
+
+students = [
+    {'first_name':  'Michael', 'last_name' : 'Jordan',},
+    {'first_name' : 'John', 'last_name' : 'Rosales'},
+    {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+    {'first_name' : 'KB', 'last_name' : 'Tonel'}
+]
+
+
+def nameDictionary(k,x):
+    for i in x:
+        print(i[k])
+nameDictionary('first_name', students)
+nameDictionary('last_name', students)
+
+#4 iterar a travez de un diccionario con valores en la lista
+
+dojo = {
+    'places': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+    'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+}
+
+def printInfo(x):
+    print(len(x['places']), 'places'.upper())
+    for place in x['places']:
+        print (place)
+    print('')
+    print(len(x['instructors']), 'instructors'.upper())
+    for instructor in x['instructors']:
+        print (instructor)
+
+printInfo(dojo)
