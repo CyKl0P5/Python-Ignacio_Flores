@@ -31,4 +31,25 @@ print(sports_dir['football'][0])
 print(sports_dir)
 
 #1.4 cambiar valor 20 en z a 30
-print()
+z = [ {'x' : 10, 'y' : 20} ]
+print(z[0]['y'])
+z[0]['y'] = 30
+print(z) 
+
+#2 iterar mediante una lista de diccionarios
+
+students = [
+        {'first_name':  'Michael', 'last_name' : 'Jordan'},
+        {'first_name' : 'John', 'last_name' : 'Rosales'},
+        {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+        {'first_name' : 'KB', 'last_name' : 'Tonel'}
+    ]
+
+def iterateDictionary(x):
+    for i in x:
+        atletic = '' 
+        for key in i:
+            atletic += key + '-' + i[key] + ','
+            print(atletic)
+
+iterateDictionary(students)
