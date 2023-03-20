@@ -50,7 +50,7 @@ def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
 
-#Prediction: 
+#Prediction: imprimiria "2 y 5" en string
 
 #8
 def number_of_oceans_or_fingers_or_continents():
@@ -63,7 +63,7 @@ def number_of_oceans_or_fingers_or_continents():
     return 7
 print(number_of_oceans_or_fingers_or_continents())
 
-#Prediction 
+#Prediction: imprimiria primero 100 y regresara a 10
 
 #9
 def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
@@ -76,7 +76,7 @@ print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 
-#Prediction 
+#Prediction: primero imprimiria 7, luego 14 y al final 21
 
 #10
 def addition(b,c):
@@ -84,7 +84,7 @@ def addition(b,c):
     return 10
 print(addition(3,5))
 
-#Prediction 
+#Prediction: imprimiria 8 e ignoraria el "return 10"
 
 #11
 b = 500
@@ -96,7 +96,7 @@ print(b)
 foobar()
 print(b)
 
-#Prediction 
+#Prediction: imprimiria 500 2 veces y despues imprimiria 300 para al final imprimir 500 denuevo
 
 #12
 b = 500
@@ -109,7 +109,7 @@ print(b)
 foobar()
 print(b)
 
-#Prediction 
+#Prediction: imprimiria 500 2 veces despues 300 para al final imprimir 500
 
 #13
 b = 500
@@ -122,7 +122,7 @@ print(b)
 b=foobar()
 print(b)
 
-#Prediction 
+#Prediction: primero imprimiria 500 2 veces, luego 300 2 veces y a "b" se le da el valor de la funcion "foobar()"
 
 #14
 def foo():
@@ -133,7 +133,7 @@ def bar():
     print(3)
 foo()
 
-#Prediction 
+#Prediction: imprimiria 1, luego llamara a la funci``òn "bar()" e imprimiria 3 y por ultimo 2
 
 #15
 def foo():
@@ -147,4 +147,4 @@ def bar():
 y = foo()
 print(y)
 
-#Prediction 
+#Prediction: imprimiria 1, despues declara que "x" es igual a "bar()" e imprimiria 3, luego 5 y por ultimp 10
