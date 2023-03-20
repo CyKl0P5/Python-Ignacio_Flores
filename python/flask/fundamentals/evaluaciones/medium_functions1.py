@@ -29,3 +29,6 @@ print(sports_dir['football'][0])
 sports_dir['football'][0] = 'Andrés'
 print(sports_dir['football'][0])
 print(sports_dir)
+
+#1.4 cambiar valor 20 en z a 30
+print()
