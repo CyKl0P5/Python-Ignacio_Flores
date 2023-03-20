@@ -1,5 +1,5 @@
 #1 cuenta regresiva
-def add(a):
+def countdown(a):
     b = []
     y = v[1]
     for u in v:
@@ -8,3 +8,6 @@ def add(a):
             return False
         return b
     print(mas([5,4,3,2,1,0]))
+
+
+
