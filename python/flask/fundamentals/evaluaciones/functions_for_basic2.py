@@ -29,3 +29,12 @@ def valores_mayores_que_el_segundo(list):
     return output
 print(valores_mayores_que_el_segundo([5,2,3,2,1,4]))
 print(valores_mayores_que_el_segundo([3]))
+
+#5 Esta longitud, Este valor
+def longitud_y_valor(size,value):
+    output = []
+    for i in range(0, size):
+        output.append(value)
+    return output
+print(longitud_y_valor(5,3))
+print(longitud_y_valor(6,9))
