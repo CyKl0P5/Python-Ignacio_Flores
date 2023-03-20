@@ -1,13 +1,9 @@
-#1 cuenta regresiva
-def countdown(a):
-    b = []
-    y = v[1]
-    for u in v:
-        b.append(u)
-        if len(b) <=2:
-            return False
-        return b
-    print(mas([5,4,3,2,1,0]))
+#1 Cuenta regresiva
+def countdown(num):
+    output = []
+    for i in range(num,-1,-1):
+        output.append(i)
+        return output
+print(countdown(5))
 
-
-
+#2 Imprimir y devolver
