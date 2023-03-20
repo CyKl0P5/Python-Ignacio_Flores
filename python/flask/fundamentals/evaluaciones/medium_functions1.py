@@ -17,3 +17,6 @@ print(students [0])
 print(students[0]['last_name'])
 students[0]['last_name'] = 'Bryant'
 print(students[0]['last_name'])
+print(students[0])
+
+#1.3 
