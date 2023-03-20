@@ -9,3 +9,7 @@ x[1][0] = 15
 print(x)
 
 #1.2 cambiar "apellido" del primer alumno de "jordan a Bryant"
+students = [
+    {'first_name' : 'Michael', 'last_name' : 'Jordan'},
+    {'first_name' : 'John', 'last_name' : 'Rosales'}
+]
