@@ -7,3 +7,6 @@ def countdown(num):
 print(countdown(5))
 
 #2 Imprimir y devolver
+def print_and_return(list):
+    print(list[0])
+    return(print)
