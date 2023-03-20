@@ -16,3 +16,16 @@ print(print_and_return([1,2]))
 def primero_mas_longitud(list):
     return list[0] + len(list)
 print(primero_mas_longitud([1,2,3,4,5]))
+
+#4 Valores Mayores Que El Segundo
+def valores_mayores_que_el_segundo(list):
+    if len(list) < 2:
+        return False
+    output = []
+    for i in range(0,len(list)):
+        if list[i] > list[1]:
+            output.append(list[i])
+    print(len(output))
+    return output
+print(valores_mayores_que_el_segundo([5,2,3,2,1,4]))
+print(valores_mayores_que_el_segundo([3]))
