@@ -19,4 +19,13 @@ students[0]['last_name'] = 'Bryant'
 print(students[0]['last_name'])
 print(students[0])
 
-#1.3 
+#1.3 En sports_dir, se cambiaria "Messi" por "Andrés"
+sports_dir = {
+    'basketball' : ['Kobe', 'Jordan', 'James', 'Curry'],
+    'football' : ['Messi', 'Ronaldo', 'Rooney']
+}
+
+print(sports_dir['football'][0])
+sports_dir['football'][0] = 'Andrés'
+print(sports_dir['football'][0])
+print(sports_dir)
