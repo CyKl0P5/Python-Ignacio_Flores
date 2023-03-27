@@ -7,7 +7,7 @@ class User:
     def make_deposit(self, amount):
         self.amount += amount
 
-    def make_withdrawl(self,amount):
+    def make_withdraw(self,amount):
         self.amount -= amount
 
     def display_user_balance(self):
@@ -32,12 +32,12 @@ nacho.display_user_balance()
 
 hayley.make_deposit(1000)
 hayley.make_deposit(1000)
-hayley.make_withdrawl(500)
-hayley.make_withdrawl(300)
+hayley.make_withdraw(500)
+hayley.make_withdraw(300)
 hayley.display_user_balance()
 
 bob.make_deposit(1500)
-bob.make_withdrawl(1000)
-bob.make_withdrawl(5000)
-bob.make_withdrawl(3000)
+bob.make_withdraw(1000)
+bob.make_withdraw(5000)
+bob.make_withdraw(3000)
 bob.display_user_balance()
