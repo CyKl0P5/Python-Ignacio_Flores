@@ -41,3 +41,5 @@ bob.make_withdraw(1000)
 bob.make_withdraw(5000)
 bob.make_withdraw(3000)
 bob.display_user_balance()
+
+hayley.transfer_money(400, nacho)
