@@ -27,7 +27,7 @@ bob = User("bob")
 nacho.make_deposit(100)
 nacho.make_deposit(200)
 nacho.make_deposit(50)
-nacho.make_withdrawl(45)
+nacho.make_withdraw(45)
 nacho.display_user_balance()
 
 hayley.make_deposit(1000)
