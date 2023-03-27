@@ -20,9 +20,9 @@ class User:
         user.display_user_balance()
 
 
-nacho = User("Adrien")
-hayley = User("Mr. Nibbles")
-bob = User("Benny Bob")
+nacho = User("nacho")
+hayley = User("hayley")
+bob = User("bob")
 
 nacho.make_deposit(100)
 nacho.make_deposit(200)
