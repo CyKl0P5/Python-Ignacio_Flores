@@ -20,7 +20,9 @@ class BankAcc:
         print(f"Usuario: {self.name}, Balance: {self.balance}")
         return self
 
-
+    def money_trans(self, other_user, amount):
+        self.make_withdraw(amount)
+        other_user.balance += amount
 
 
 
