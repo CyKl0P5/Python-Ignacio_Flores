@@ -13,7 +13,13 @@ class BankAcc:
     def transfer(self, destinatario, cantidad):
         if cantidad > self.balance:
             print("No tiene el saldo suficiente para realizar esta transacción")
-            
+        self.make_withdraw(cantidad)
+        destinatario.deposit1(cantidad)
+
+    def accinfo(self):
+        print(f"Usuario: {self.name}, Balance: {self.balance}")
+        return self
+
 
 
 
