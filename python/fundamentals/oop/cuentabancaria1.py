@@ -23,14 +23,20 @@ class BankAcc:
     def money_trans(self, other_user, amount):
         self.make_withdraw(amount)
         other_user.balance += amount
+        return self 
+
+    def money_deposit(self, other_user, amount):
+        self.deposit1(amount)
+        other_user.balance += amount
+        return self
+
+    def percent(self):
+        percent = self.balance * self.percent_tace
+        self.balance += percent
+        print(f"Interes generado: {percent}")
+        return self
 
 
 
 
 
-#user class
-def deposito(self, amount):
-
-def mostrar_info_cuenta(self):
-
-def generar_interes(self):
