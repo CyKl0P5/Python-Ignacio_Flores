@@ -5,8 +5,14 @@ class BankAcc:
         self.amount = 0
 
     def deposit1(self, amount):
-        self
-        self
+        self.amount += amount
+        return self
+
+    def withdraw1(self, amount):
+        self.amount
+
+
+
 
 
 #user class
