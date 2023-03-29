@@ -1,17 +1,19 @@
 #main class 
 class BankAcc:
-    def _init_(self, tasa_interes, balance):
+    def _init_(self, name , tasa_interes, balance):
         self.name = name
-        self.amount = 0
+        self.balance = balance
 
     def deposit1(self, amount):
-        self.amount += amount
-        return self
+        self.balance += amount
 
     def make_withdraw(self, amount):
-        self.amount -= amount
-        return self
+        self.balance -= amount
 
+    def transfer(self, destinatario, cantidad):
+        if cantidad > self.balance:
+            print("No tiene el saldo suficiente para realizar esta transacción")
+            
 
 
 
