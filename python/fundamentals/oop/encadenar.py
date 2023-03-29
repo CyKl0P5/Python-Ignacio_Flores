@@ -24,11 +24,13 @@ class User:
         user.display_user_balance()
         return self
 
+#nombres de usuarios
 
 nacho = User("nacho")
 david = User("david")
 luis = User("luis")
 
+#depositos y retiros
 nacho.make_deposit(100).make_deposit(200).make_deposit(50).make_withdrawl(45).display_user_balance()
 
 david.make_deposit(1000).make_deposit(1000).make_withdrawl(500).make_withdrawl(300).display_user_balance()
