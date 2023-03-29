@@ -26,13 +26,13 @@ class User:
 
 
 nacho = User("nacho")
-nobbles = User("Nobbles")
-bob = User("Bob")
+david = User("david")
+luis = User("luis")
 
 nacho.make_deposit(100).make_deposit(200).make_deposit(50).make_withdrawl(45).display_user_balance()
 
-nobbles.make_deposit(1000).make_deposit(1000).make_withdrawl(500).make_withdrawl(300).display_user_balance()
+david.make_deposit(1000).make_deposit(1000).make_withdrawl(500).make_withdrawl(300).display_user_balance()
 
-bob.make_deposit(1500).make_withdrawl(1000).make_withdrawl(5000).make_withdrawl(3000).display_user_balance()
+luis.make_deposit(1500).make_withdrawl(1000).make_withdrawl(5000).make_withdrawl(3000).display_user_balance()
 
-nobbles.transfer_money(400, nacho)
+david.transfer_money(400, nacho)
