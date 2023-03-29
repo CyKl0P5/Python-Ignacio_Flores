@@ -45,9 +45,11 @@ class BankAcc:
 acc1 = BankAcc("ignacio", 1000, 0.01)
 acc2 = BankAcc("franco", 1000, 0.01)
 
+#retiros
 acc1.make_withdraw(100).make_withdraw(100).make_withdraw(100).deposit1(100).percent()
 acc2.make_withdraw(100).make_withdraw(100).deposit1(100).deposit1(100).deposit1(100).deposit1(100).percent()
 
+#account information
 acc1.accinfo()
 acc2.accinfo()
 
