@@ -8,8 +8,11 @@ class BankAcc:
         self.amount += amount
         return self
 
-    def withdraw1(self, amount):
-        self.amount
+    def make_withdraw(self, amount):
+        self.amount -= amount
+        return self
+
+
 
 
 
