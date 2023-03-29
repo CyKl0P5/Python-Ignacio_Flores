@@ -1,8 +1,9 @@
 #main class 
 class BankAcc:
-    def _init_(self, name , tasa_interes, balance):
+    def __init__(self, name, balance, percent_tace):
         self.name = name
         self.balance = balance
+        self.percent_tace = percent_tace
 
     def deposit1(self, amount):
         self.balance += amount
@@ -20,7 +21,7 @@ class BankAcc:
         print(f"Usuario: {self.name}, Balance: {self.balance}")
         return self
 
-    def money_trans(self, other_user, amount):
+    def money_transf(self, other_user, amount):
         self.make_withdraw(amount)
         other_user.balance += amount
         return self 
@@ -37,6 +38,13 @@ class BankAcc:
         return self
 
 
+#accounts
+
+acc1 = BankAcc("ignacio", 1000, 0.01)
+acc2 = BankAcc("franco", 1000, 0.01)
 
 
+
+acc1.accinfo()
+acc2.accinfo()
 
