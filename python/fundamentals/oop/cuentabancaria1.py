@@ -7,9 +7,11 @@ class BankAcc:
 
     def deposit1(self, amount):
         self.balance += amount
+        return self
 
     def make_withdraw(self, amount):
         self.balance -= amount
+        return self
 
     def transfer(self, destinatario, cantidad):
         if cantidad > self.balance:
@@ -43,7 +45,8 @@ class BankAcc:
 acc1 = BankAcc("ignacio", 1000, 0.01)
 acc2 = BankAcc("franco", 1000, 0.01)
 
-
+acc1.make_withdraw(100).make_withdraw(100).make_withdraw(100).deposit1(100).percent()
+acc2.make_withdraw(100).make_withdraw(100).deposit1(100).deposit1(100).deposit1(100).deposit1(100).percent()
 
 acc1.accinfo()
 acc2.accinfo()
