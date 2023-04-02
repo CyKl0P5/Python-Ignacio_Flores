@@ -1,5 +1,5 @@
 #accounts
-class accs:
+class accounts:
     def __init__(self, num_acc, usr, amount):
         self.num_acc = num_acc
         self.usr = usr
@@ -16,8 +16,8 @@ class accs:
     
 
 #user
-class user:
-    def __init__(self, name, amount):
+class User:
+    def __init__(self, name, amount,):
         self.name = name
         self.amount = amount
         self.accounts = []
@@ -28,7 +28,7 @@ class user:
         else:
             return False
 
-    def addAcc(self, account):
+    def addacc(self, account):
         self.accounts.append(account)
         print(f"Cuenta {account.num_acc} agregada")
         print("----------------")
@@ -57,7 +57,7 @@ class user:
     def balance(self, num_acc):
         for account in self.accounts:
             if account.Alook(num_acc):
-                print(f"El saldo actual de la cuenta {account.num_acc} es {acc.balance}")
+                print(f"El saldo actual de la cuenta {account.num_acc} es {account.balance}")
                 print("----------")
                 return self
             print(f"La cuenta no existe {num_acc}")
@@ -69,12 +69,12 @@ class user:
         for account in self.accounts:
             if account.Alook(acc_origin.num_acc):
                 for account_other_usr in other_Usr.accounts:
-                    if account_other_Usr.Alook(acc_destiny.num_acc):
+                    if account_other_usr.Alook(acc_destiny.num_acc):
                         account.balance -= amount
-                        account_other_Usr.balance += amount
+                        account_other_usr.balance += amount
                         print("Transaccion completada")
                         print(account)
-                        print(account_other_Usr)
+                        print(account_other_usr)
                         print("----------")
                         return self
             print(f"No existe la cuenta {acc_origin.num_acc} o la cuenta {acc_destiny.num_acc}")
@@ -90,13 +90,13 @@ acc2 = accounts("002", Usr2, Usr2.amount)
 acc3 = accounts("003", Usr1, Usr1.amount)
 
 #user 1
-if Usr1.Ulook("nacho") == true:
+if Usr1.Ulook("nacho") == True:
     print("Hola!" + Usr1.name + ", gracias por prefererirnos!!! aqui estan tus cuentas nuevas")
     Usr1.addacc(acc1)
     Usr1.addacc(acc3)
 
 #user 2
-if Usr2.Ulook("leon") == true:
+if Usr2.Ulook("leon") == True:
     print("Hola!" + Usr2.name + ", gracias por prefererirnos!!! aqui estan tus cuentas nuevas")
     Usr2.addacc(acc2)
 
@@ -112,6 +112,3 @@ Usr2.balance("002")
 
 #withdraw money
 Usr2.withdraw("002", 1000)
-
-#info
-Usr1.acc_info()
