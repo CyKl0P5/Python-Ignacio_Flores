@@ -17,4 +17,3 @@ class SNode:
         self.head = new_node
         return self
 
-
