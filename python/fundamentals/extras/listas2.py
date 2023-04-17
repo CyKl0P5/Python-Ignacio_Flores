@@ -4,3 +4,7 @@ class Node:
         self.next = None
         self.prev = None
 
+class Elist:
+    def __init__(self):
+        self.root = None
+
