@@ -32,3 +32,36 @@ class Elist:
         if self.root == None:
             new_node = Node(data)
             self.root = new_node
+            return
+        runner = self.root
+        while runner.next != None:
+            runner = runner.next
+        new_node = Node(data)
+        runner.next = new_node
+        new_node.prev = runner
+        return self
+
+    def ide(self, n, data):
+        if self.root == None:
+            print("L/V")
+        else:
+            runner = self.root
+            while runner != None:
+                if runner.value == n:
+                    break
+                runner = runner.next
+            if runner == None:
+                print("N/F")
+            else:
+                new_node = Node(data)
+                new_node.prev = runner
+                new_node.next = runner.next
+                if runner.next != None:
+                    runner.next.prev = new_node
+                runner.next = new_node
+
+    def delI(self):
+        if self.root == None:
+            print("L/V")
+            return
+        if self.root.next == None:
