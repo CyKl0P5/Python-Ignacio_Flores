@@ -83,4 +83,20 @@ class Elist:
         runner.prev.next = None
         return self
 
-    def
+    def debValued(self, val):
+        if self.root == None:
+            print("L/V")
+        elif self.root.next == None:
+            if self.root.value == val:
+                self.root = None
+            else:
+                print("N/F")
+        elif self.root.value == val:
+            self.delI()
+        runner = self.root
+        while runner.next != None:
+            if runner.value == val:
+                break
+            runner = runner.next
+
+
