@@ -65,3 +65,22 @@ class Elist:
             print("L/V")
             return
         if self.root.next == None:
+            self.root = None
+        self.root = self.root.next
+        self.root.prev = None
+        return self
+
+    def delB(self):
+        if self.root == None:
+            print("L/V")
+            return
+        if self.root.next == None:
+            self.root = None
+            return
+        runner = self.root
+        while runner.next != None:
+            runner = runner.next
+        runner.prev.next = None
+        return self
+
+    def
