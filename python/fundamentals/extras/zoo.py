@@ -19,4 +19,8 @@ class Cat(Animal):
 
     def PI(self):
         super().PIA()
-        
+        print(Fore.CYAN + "Health" + Style.RESET_ALL, self.health)
+        print(Fore.CYAN + "Happiness" + Style.RESET_ALL, self.happiness)
+        print(Fore.CYAN + "Specie" + Style.RESET_ALL, self.specie)
+        print(Fore.RED + "------------------------------------" + Style.RESET_ALL)
+        return self
