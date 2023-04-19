@@ -96,4 +96,4 @@ class Zoo:
 
 Zoo1 = Zoo("ZOOKEE")
 
-Zoo1.AG("Cat").AC("Capyto").AP("Mumble").PrintInfo()
+Zoo1.AG("Cart").AC("Capyto").AP("Mumble").PrintInfo()
